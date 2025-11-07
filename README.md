@@ -64,27 +64,4 @@ flowchart TD
     G --> H[Lead Scoring Output]
     H --> I[CRM / Dashboard Integration]
 
-## 🗂 Repository Structure
-
-Lead-Scoring-Pipeline/
-├── Lead_scoring_data_pipeline/
-│   ├── ingestion/
-│   ├── preprocessing/
-│   └── feature_engineering/
-├── Lead_scoring_training_pipeline/
-│   ├── model_training.py
-│   ├── evaluation.py
-│   └── utils/
-├── Lead_scoring_inference_pipeline/
-│   ├── load_model.py
-│   ├── predict.py
-│   └── output/
-├── notebooks/
-│   └── exploratory_data_analysis.ipynb
-├── unit_test/
-│   ├── test_data_pipeline.py
-│   └── test_model_training.py
-├── requirements.txt
-├── LICENSE
-└── README.md
 
